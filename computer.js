@@ -165,7 +165,7 @@ function testDiagonalStrategie(player) {
 	} else {
 		symbol = 'O';
 	}
-	if (document.getElementById('1').innerHTML == symbol || document.getElementById('3').innerHTML == symbol || document.getElementById('7').innerHTML == symbol || document.getElementById('9').innerHTML == symbol) {
+	if (document.getElementById('1').innerHTML == symbol || document.getElementById('3').innerHTML == symbol || document.getElementById('7').innerHTML == symbol || document.getElementById('9').innerHTML == symbol || document.getElementById('5').innerHTML == symbol) {
 		for (var i = 1; i < 4; i = i+2) {
 			for (var j = 0; j < 7; j = j+6) {
 				if (document.getElementById((i+j).toString()).innerHTML == ' ') {
