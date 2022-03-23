@@ -3,6 +3,7 @@ div {
 	flex-wrap: wrap;
 	align-items: center;
 	padding: 5px calc(50% - 375px);
+	margin-top: auto;
 }
 
 h1 {
@@ -25,4 +26,25 @@ h1 {
 
 body {
 	background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media(max-height: 900px){
+	.cases{
+		height: 175px;
+		width: 175px;
+	}
+}
+
+@media(max-height: 700px){
+	.cases{
+		height: 125px;
+		width: 125px;
+	}
+}
+
+@media(max-height: 500px){
+	.cases{
+		height: 80px;
+		width: 80px;
+	}
 }
