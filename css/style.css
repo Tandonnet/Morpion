@@ -1,0 +1,28 @@
+div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 5px calc(50% - 375px);
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.cases {
+	flex: 1 0 30%;
+	height: 250px;
+	width: 200px;
+	font-size: 150px;
+	background-color: rgb(55,55,55);
+	border-width: 5px;
+	border-color: rgb(155,155,155);
+	border-style: solid;
+	color: white;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.8);
+}

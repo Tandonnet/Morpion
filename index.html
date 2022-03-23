@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="Morpion" content="Jouer au morpion en ligne">
+	<title>Morpion</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	<script src="computer.js"></script>
+</head>
+	
+	<body>
+		<h1>Jouer au morpion</h1>
+		<div>
+			<button type="button" class="cases" id="7" onclick="playCell('7')"> </button>
+			<button type="button" class="cases" id="8" onclick="playCell('8')"> </button>
+			<button type="button" class="cases" id="9" onclick="playCell('9')"> </button>
+			<button type="button" class="cases" id="4" onclick="playCell('4')"> </button>
+			<button type="button" class="cases" id="5" onclick="playCell('5')"> </button>
+			<button type="button" class="cases" id="6" onclick="playCell('6')"> </button>
+			<button type="button" class="cases" id="1" onclick="playCell('1')"> </button>
+			<button type="button" class="cases" id="2" onclick="playCell('2')"> </button>
+			<button type="button" class="cases" id="3" onclick="playCell('3')"> </button>
+		</div>
+		<h1 id="show-player" style="color: red;">Joueur 1</h1>
+	</body>
+</html>
